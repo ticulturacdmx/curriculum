@@ -28,6 +28,7 @@ CREATE TABLE area(
 CREATE TABLE postulante(
   id_postulante INT NOT NULL,
   nombre VARCHAR(200),
+  correo VARCHAR(100),
   folio VARCHAR(100),
   urlcv VARCHAR(100),
   telefono VARCHAR(50),
