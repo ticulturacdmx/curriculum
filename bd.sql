@@ -33,6 +33,8 @@ CREATE TABLE postulante(
   urlcv VARCHAR(100),
   telefono VARCHAR(50),
   telefono2 VARCHAR(50),
+  fecha_postulacion DATE,
+  fecha_entrevista DATE,
   id_area INT,
   CONSTRAINT fk_area FOREIGN KEY (id_area) REFERENCES (id_area)
 )
