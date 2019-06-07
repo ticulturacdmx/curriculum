@@ -16,13 +16,13 @@ CREATE TABLE admin(
   fecha_creado VARCHAR(30),
   estado INT DEFAULT 0
 
-)
+);
 
 CREATE TABLE area(
   id_area INT NOT NULL,
   nombrearea VARCHAR(200),
   primary key(id_area)
-)
+);
 
 
 CREATE TABLE postulante(
@@ -37,4 +37,4 @@ CREATE TABLE postulante(
   fecha_entrevista DATE,
   id_area INT,
   CONSTRAINT fk_area FOREIGN KEY (id_area) REFERENCES (id_area)
-)
+);
