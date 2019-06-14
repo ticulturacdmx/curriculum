@@ -1,6 +1,6 @@
 -- CREATE DB CURRICULUM
 
-CREATE DATABASE repositorio;
+CREATE DATABASE curriculum;
 
 USE repositorio;
 
