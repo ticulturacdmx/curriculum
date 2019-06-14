@@ -1,8 +1,8 @@
 -- CV: CREATE USER AND DATABASE
 
-CREATE USER 'curriculum'@'localhost' INDENTIFIED BY 'culturaCDMX#2019';
+CREATE USER 'cultura'@'localhost' INDENTIFIED BY 'culturaCDMX#2019';
 
-GRANT ALL PRIVILEGES ON * . * TO 'curriculum'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'cultura'@'localhost';
 
 FLUSH PRIVILEGES;
 
