@@ -2,7 +2,7 @@
 
 CREATE DATABASE curriculum;
 
-USE repositorio;
+USE curriculum;
 
 CREATE TABLE admin(
   id_usuario INT NOT NULL,
